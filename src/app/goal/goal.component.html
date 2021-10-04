@@ -1,1 +1,7 @@
-<p>goal works!</p>
+<ul>
+    <!-- display array -->
+    <li *ngFor='let goal of goals'>
+     {{goal.id}} {{goal.name}}
+    </li>
+  </ul>
+  <p *ngIf='goals.length > 5'>Your goals are too many</p>
