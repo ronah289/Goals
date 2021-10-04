@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Goals'
-  goal = 'watch finding demo';
+  goals!:string[];
+  constructor(){
+    this.goals = ['buy watch','buy phone','buy shoes','attend meeting'];
+  }
 }
