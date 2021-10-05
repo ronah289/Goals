@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GoalComponent } from './goal/goal.component';
 import { GoalDetailComponentComponent } from './goal-detail-component/goal-detail-component.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     GoalComponent,
-    GoalDetailComponentComponent
+    GoalDetailComponentComponent,
+    StrikethroughDirective
   ],
   imports: [
     BrowserModule,
