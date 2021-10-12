@@ -21,7 +21,7 @@ import { GoalService } from './goal-service/goal.service';
     GoalDetailComponentComponent,
     StrikethroughDirective,
     DateCountPipe,
-    GoalFormComponent
+    GoalFormComponent,
   ],
   imports: [
     BrowserModule,
