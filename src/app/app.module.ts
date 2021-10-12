@@ -8,6 +8,7 @@ import { GoalDetailComponentComponent } from './goal-detail-component/goal-detai
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { GoalFormComponent } from './goal-form/goal-form.component';
 import { GoalService } from './goal-service/goal.service';
 
@@ -23,7 +24,8 @@ import { GoalService } from './goal-service/goal.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [GoalService],
   bootstrap: [AppComponent]
