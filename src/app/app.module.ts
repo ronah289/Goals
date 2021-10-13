@@ -13,6 +13,7 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { GoalFormComponent } from './goal-form/goal-form.component';
 import { GoalService } from './goal-service/goal.service';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { GoalService } from './goal-service/goal.service';
     StrikethroughDirective,
     DateCountPipe,
     GoalFormComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
